@@ -15,7 +15,7 @@ def BMI(feet, inches, pounds):
     # Impossible to have bmi 0 or less
     if bmi < 0.1:
         weight_class = "Error"
-    elif bmi < 18.4:
+    elif bmi < 18.5:
         weight_class = "Underweight"
     elif bmi <= 24.9:
         weight_class = "Normal"
